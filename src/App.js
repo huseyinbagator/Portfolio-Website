@@ -10,7 +10,9 @@ import Navbar from './Components/Navbar';
 function App() {
   return (
     <BrowserRouter>
-        <Routes>
+      <div className='App'>
+      <Navbar/>
+      <Routes>
           <Route path='/' element={<Home/>} />
           <Route path='/about' element={<About/>} />
           <Route path='/tech-stack' element={<Techstack/>} />
@@ -18,8 +20,7 @@ function App() {
           <Route path='/contact' element={<Contact/>} />
           <Route path='*' element={<Home/>} />
         </Routes>
-      <div className='App'>
-        <Navbar/>
+       
   
       </div>
     </BrowserRouter>
