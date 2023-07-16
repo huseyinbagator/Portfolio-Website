@@ -7,7 +7,7 @@ function introduction() {
     <div className='intro-container'>
         <div className='enter'>
             <p>
-                  Hi 👋, My name is Hüseyin  I'm a Frontend Developer
+                  Hi 👋,<br/> My name is <br/> <span className='name'>Hüseyin Bağator </span> <br/> I'm a Frontend Developer
             </p>
         </div>
         <div className='avatar'>
