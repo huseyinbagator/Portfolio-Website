@@ -17,13 +17,12 @@ function Navbar() {
         </div>
         <div className="nav-row-2">
          
-          <Link to="/">Home</Link> 
-          <Link to="/about">About</Link>
-          <Link to="/tech-stack">Tech Stack</Link>
-          <Link to="/projects">Projects</Link>
-          <Link to="/contact">Contact</Link>
-        </div>
-        <div className="social-media">
+          <Link className="nav-link" to="/">Home</Link> 
+          <Link className="nav-link" to="/about">About</Link>
+          <Link className="nav-link" to="/tech-stack">Tech Stack</Link>
+          <Link className="nav-link" to="/projects">Projects</Link>
+          <Link className="nav-link" to="/contact">Contact</Link>
+          <div className="social-media">
          
           <a
             target="_blank"
@@ -31,7 +30,7 @@ function Navbar() {
             alt="Github Link"
             rel="noreferrer"
           >
-           
+            
             <img src={Github} alt="Github Logo" />
           </a>{" "}
           <a
@@ -40,10 +39,12 @@ function Navbar() {
             alt="Linkedin Link"
             rel="noreferrer"
           >
-           
+            
             <img src={Linkedin} alt="Linkedin Logo" />
           </a>
+            </div>
         </div>
+       
       </nav>
     </div>
   );
