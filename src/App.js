@@ -6,6 +6,7 @@ import About from './Pages/About';
 import Techstack from './Pages/Techstack';
 import Projects from './Pages/Projects';
 import Contact from './Pages/Contact';
+import Navbar from './Components/Navbar';
 function App() {
   return (
     <BrowserRouter>
@@ -18,9 +19,9 @@ function App() {
           <Route path='*' element={<Home/>} />
         </Routes>
       <div className='App'>
-       
+        <Navbar/>
   
-        </div>
+      </div>
     </BrowserRouter>
     
   );
