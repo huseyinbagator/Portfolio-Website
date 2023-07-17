@@ -17,16 +17,16 @@ function tech() {
         <h1 className>My Tech Stack</h1>
         <h3>Technologies I’ve been working with recently</h3>
         <div className='icons'>
-            <img src={Html}  alt="Html"  />
-            <img src={Css}  alt="Css" />
-            <img src={Js}  alt="Javascript"  />
-            <img src={Reactimg}  alt="React" />
-            <img src={Bootstrap}  alt="Bootstrap" /> 
-            <img src={Sass} alt="Sass"/>                         
-            <img src={Vscode}  alt="Vscode"  />
-            <img src={Git}  alt="Git" />
-            <img src={Githubicon}  alt="Github"  />
-            <img src={Figma}  alt="Figma"  />
+            <img className='icon'  src={Html}  alt="Html"  />
+            <img className='icon' src={Css}  alt="Css" />
+            <img className='icon' src={Js}  alt="Javascript"  />
+            <img className='icon' src={Reactimg}  alt="React" />
+            <img className='icon' src={Bootstrap}  alt="Bootstrap" /> 
+            <img className='icon' src={Sass} alt="Sass"/>                         
+            <img className='icon' src={Vscode}  alt="Vscode"  />
+            <img className='icon' src={Git}  alt="Git" />
+            <img className='icon' src={Githubicon}  alt="Github"  />
+            <img className='icon' src={Figma}  alt="Figma"  />
         </div>
     </div>
   )
