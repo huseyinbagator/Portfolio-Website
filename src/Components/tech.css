@@ -1,0 +1,33 @@
+.tech-container {
+  text-align: center;
+  margin-top: 150px;
+}
+.tech-container h1 {
+  color: #42446e;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px;
+}
+.tech-container h3 {
+  color: var(#666);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  margin-top: 50px;
+}
+.icons {
+    margin-top: 50px;
+    margin-left: 100px;
+    display:grid;
+    grid-template-columns: auto auto auto auto auto;
+
+}
+.icon{
+    margin: 10px;
+}
