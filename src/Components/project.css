@@ -1,0 +1,84 @@
+.project-container {
+  margin-top: 150px;
+}
+.project-container h1,
+h2 {
+  text-align: center;
+}
+.container-title {
+    margin-top: 10px;
+  color: #42446e;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px;
+}
+.container-description {
+  color: #666;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  margin-top: 50px;
+}
+.card {
+  margin-top: 100px;    
+  width: 373px;
+  height: 450px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: 2px 2px 100px 0px rgba(0, 0, 0, 0.2);
+}
+.card img {
+  margin-top: 15px;
+  width: 373px;
+}
+.project-description {
+  padding: 0 30px;
+}
+.title-portfolio {
+  color: #000;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+}
+.description-portfolio {
+  margin-top: 20px;  
+  color:  #666;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 26px;
+}
+.stack {
+
+  color: #42446e;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 26px;
+}
+.project-links{
+    margin-top: 70px;
+}
+.project-links a {
+
+  text-decoration: none;
+  color: #000;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  text-decoration-line: underline;
+}
