@@ -1,9 +1,12 @@
-import React from 'react'
+import React from 'react';
+import Project from '../Components/project.jsx'
 
 
 function Projects() {
   return (
-    <div></div>
+    <div>
+      <Project/>
+    </div>
   )
 }
 
