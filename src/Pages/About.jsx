@@ -1,5 +1,5 @@
 import React from "react";
-import './About.css';
+import "./About.css";
 
 function About() {
   return (
@@ -23,35 +23,35 @@ function About() {
       <div className="work">
         <div>
           <h1 className="h1-title">Work Experience</h1>
-          <div>
+          <div className="work-title">
             <h2 className="title-about">Junior Frontend Developer</h2>
-            <p>Full Time Intern</p>
+            <p className="btn-succes">Full Time Intern</p>
           </div>
-          <div>
+          <div className="bt-text">
             <p>Ağaçkakan Study Cafe</p>
             <p>Turkey,Eskisehir(Remote)</p>
             <p>01.04.2023</p>
-          </div>  
-          
+          </div>
         </div>
       </div>
       <div className="edu">
         <h1 className="h1-title">Education</h1>
-          <div>
-            <h2 className="title-about">Karaman Mehmet Bey University</h2>
-            <div>
-              <p className="">Computer Programming</p>
-              <p className="year">2023</p>
-            </div>
+        <div>
+          <h2 className="title-about">Karaman Mehmet Bey University</h2>
+          <div className="bt-text">
+            <p>Computer Programming</p>
+            <p>2023</p>
           </div>
-          <div>
-            <h2 className="title-about">React JS : Applied React JS -Redux Tutorial </h2>
-            <div>
-              <p>Can Boz</p>
-              <p className="year">2023</p>
-            </div>
+        </div>
+        <div>
+          <h2 className="title-about">
+            React JS : Applied React JS -Redux Tutorial{" "}
+          </h2>
+          <div className="bt-text">
+            <p>Can Boz</p>
+            <p>2023</p>
           </div>
-          
+        </div>
       </div>
     </div>
   );
