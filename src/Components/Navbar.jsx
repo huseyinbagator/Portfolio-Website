@@ -33,15 +33,7 @@ function Navbar() {
             
             <img src={Github} alt="Github Logo" />
           </a>{" "}
-          <a
-            target="_blank"
-            href="https://www.linkedin.com/in/h%C3%BCseyin-ba%C4%9Fator-348960199/"
-            alt="Linkedin Link"
-            rel="noreferrer"
-          >
-            
-            <img src={Linkedin} alt="Linkedin Logo" />
-          </a>
+          footergithub
             </div>
         </div>
        
