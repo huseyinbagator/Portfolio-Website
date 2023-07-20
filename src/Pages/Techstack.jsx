@@ -1,8 +1,11 @@
-import React from 'react'
+import React from 'react';
+import Tech from '../Components/tech.jsx';
 
 function Techstack() {
   return (
-    <div></div>
+    <div>
+      <Tech/>
+    </div>
   )
 }
 
