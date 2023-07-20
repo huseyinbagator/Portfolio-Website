@@ -7,6 +7,7 @@ import Techstack from './Pages/Techstack';
 import Projects from './Pages/Projects';
 import Contact from './Pages/Contact';
 import Navbar from './Components/Navbar';
+import Footer from './Components/footer';
 function App() {
   return (
     <BrowserRouter>
@@ -20,8 +21,7 @@ function App() {
           <Route path='/contact' element={<Contact/>} />
           <Route path='*' element={<Home/>} />
         </Routes>
-       
-  
+     <Footer/>
       </div>
     </BrowserRouter>
     
