@@ -14,7 +14,7 @@ import Sass from '../images/sass.svg';
 function tech() {
   return (
     <div className='tech-container'>
-        <h1 className>My Tech Stack</h1>
+        <h1>My Tech Stack</h1>
         <h3>Technologies I’ve been working with recently</h3>
         <div className='icons'>
             <img className='icon'  src={Html}  alt="Html"  />
