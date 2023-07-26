@@ -1,32 +1,30 @@
-
-nav{
-    display: flex;
-    align-items: center;
-    justify-content:space-between;
-    margin: 30px ;
-    font-family: 'DM Sans', sans-serif;
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 30px;
+  font-family: "DM Sans", sans-serif;
 }
-.Logo{
-    text-decoration: none;
-    font-size: 25px;
-    color:#000000;
-    font-weight: 700;
+.Logo {
+  text-decoration: none;
+  font-size: 25px;
+  color: #000000;
+  font-weight: 700;
 }
-.nav-row-2{
-    display: flex;
-    align-items: center;
-    
+.nav-row-2 {
+  display: flex;
+  align-items: center;
 }
-.nav-link{
-    text-decoration: none;
-    margin:0 20px;
-    font-size: 19px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 26px;
-    color: #666;
-    transition: color .5s ;    
+.nav-link {
+  text-decoration: none;
+  margin: 0 20px;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+  color: #666;
+  transition: color 0.5s;
 }
-.nav-link:hover{
-    color:#1a1a1a ;
+.nav-link:hover {
+  color: #1a1a1a;
 }

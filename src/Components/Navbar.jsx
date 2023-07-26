@@ -6,37 +6,47 @@ import Github from "../images/Github.svg";
 function Navbar() {
   return (
     <div>
-     
       <nav>
-       
         <div className="nav-row-1">
-         
           <Link to="/" className="Logo">
             Hüseyin.dev
           </Link>
         </div>
         <div className="nav-row-2">
-         
-          <Link className="nav-link" to="/">Home</Link> 
-          <Link className="nav-link" to="/about">About</Link>
-          <Link className="nav-link" to="/tech-stack">Tech Stack</Link>
-          <Link className="nav-link" to="/projects">Projects</Link>
-          <Link className="nav-link" to="/contact">Contact</Link>
+          <Link className="nav-link" to="/">
+            Home
+          </Link>
+          <Link className="nav-link" to="/about">
+            About
+          </Link>
+          <Link className="nav-link" to="/tech-stack">
+            Tech Stack
+          </Link>
+          <Link className="nav-link" to="/projects">
+            Projects
+          </Link>
+          <Link className="nav-link" to="/contact">
+            Contact
+          </Link>
           <div className="social-media">
-         
-          <a
-            target="_blank"
-            href="https://github.com/huseyinbagator"
-            alt="Github Link"
-            rel="noreferrer"
-          >
-            
-            <img src={Github} alt="Github Logo" />
-          </a>{" "}
-          footergithub
-            </div>
+            <a
+              target="_blank"
+              href="https://github.com/huseyinbagator"
+              alt="Github Link"
+              rel="noreferrer"
+            >
+              <img src={Github} alt="Github Logo" />
+            </a>{" "}
+            <a
+              target="_blank"
+              href="https://www.linkedin.com/in/h%C3%BCseyin-ba%C4%9Fator-348960199/"
+              alt="Linkedin Link"
+              rel="noreferrer"
+            >
+              <img src={Linkedin} alt="Linkedin Logo" />
+            </a>{" "}
+          </div>
         </div>
-       
       </nav>
     </div>
   );

@@ -29,7 +29,7 @@
 }
 
 .nav-link {
-  color: var(--solid-heading, #42446e);
+  color: #42446e;
   font-family: DM Sans;
   font-size: 18px;
   font-style: normal;

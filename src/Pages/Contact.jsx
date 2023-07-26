@@ -1,8 +1,12 @@
-import React from 'react'
+import React from 'react';
+import './Contact.css'
 
 function Contact() {
   return (
-    <div></div>
+   <div className='contact-container'>
+    <h1 className='ct-title'>For any questions please mail me:</h1>
+    <h2 className='ct-mail' >bagatorhuseyin0@gmail.com</h2>
+  </div>
   )
 }
 
