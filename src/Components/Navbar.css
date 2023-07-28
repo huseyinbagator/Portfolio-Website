@@ -1,9 +1,10 @@
 nav {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   margin: 30px;
   font-family: "DM Sans", sans-serif;
+  width: 100% !important;
 }
 .Logo {
   text-decoration: none;
@@ -27,4 +28,76 @@ nav {
 }
 .nav-link:hover {
   color: #1a1a1a;
+}
+
+.nav-btn {
+  padding: 5px;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #000000;
+  visibility: hidden;
+  opacity: 0;
+  font-size: 1.8rem;
+}
+@media only screen and (max-width: 1024px) {
+  .Logo{
+    font-size: 60px;
+    color: #fff;
+  }
+  .nav-btn {
+    visibility: visible;
+    opacity: 1;
+    padding-top: 20px;
+    margin-left: 20px;
+  }
+  
+  nav {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1.5rem;
+    background: #13b0f5;
+    transition: 1s;
+    transform: translateY(-500vh);
+  }
+  nav .nav-row-2 {
+    display: flex;
+    flex-direction: column;
+  }
+  nav .nav-row-2 .nav-link {
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    margin-top: 30px;
+    color: #fff;
+    padding: 10px;
+    transition: 1s;
+  }
+  nav .nav-row-2 .nav-link:hover{
+    background-color:  #E70FAA;
+  }
+
+  .responsive-nav {
+    transform: none;
+  }
+  .nav-close-btn {
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+    color: #fff;
+    font-size: 55px;
+  }
+  .social-media{
+    display:none;
+  }
 }
