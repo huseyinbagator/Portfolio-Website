@@ -1,12 +1,20 @@
-import React from "react";
+import { useRef }from "react";
 import "./Navbar.css";
 import { Link } from "react-router-dom";
 import Linkedin from "../images/linkedin.svg";
 import Github from "../images/Github.svg";
+import {FaBars, FaTimes} from "react-icons/fa";
+
 function Navbar() {
+  const navRef = useRef();
+  
+  const showNavbar = () =>{
+    navRef.current.classList.toggle("responsive-nav")
+  }
+
   return (
     <div>
-      <nav>
+      <nav ref={navRef}>
         <div className="nav-row-1">
           <Link to="/" className="Logo">
             Hüseyin.dev
@@ -28,6 +36,9 @@ function Navbar() {
           <Link className="nav-link" to="/contact">
             Contact
           </Link>
+          <button className="nav-btn  nav-close-btn" onClick={showNavbar}>
+            <FaTimes />
+          </button>
           <div className="social-media">
             <a
               target="_blank"
@@ -48,6 +59,9 @@ function Navbar() {
           </div>
         </div>
       </nav>
+      <button className="nav-btn" onClick={showNavbar}>
+        <FaBars/>
+      </button>
     </div>
   );
 }
